@@ -5,7 +5,7 @@ let d;
 
 console.log(a.concat(b,c));
 
-var e = 12;
-var f = 846;
+let e = 12;
+let f = 846;
 
 console. log(`${e} ${f}`);
