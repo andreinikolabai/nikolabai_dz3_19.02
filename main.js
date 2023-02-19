@@ -5,7 +5,7 @@ let d;
 
 console.log(a.concat(b,c));
 
-let e = 12;
-let f = 846;
+let e = 12846;
+let f = e.toString().split("").map(Number);
 
-console. log(`${e} ${f}`);
+console.log(f.join(" "));
