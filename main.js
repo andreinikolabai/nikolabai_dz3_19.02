@@ -3,8 +3,5 @@ let b = prompt('second row', '');
 let c = prompt('third row', '');
 alert(a.concat(b,c));
 
-let e;
-e=Number(prompt("number",""));
-
-let f = e.toString().split("").map(Number);
-alert(f.join(" "));
+const d = prompt("number:").split('').map(Number).join(" ");
+alert(d);
