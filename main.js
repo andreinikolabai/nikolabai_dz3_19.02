@@ -1,7 +1,6 @@
 let a = 'com';
 let b = 'put';
 let c = 'ers';
-let d;
 
 console.log(a.concat(b,c));
 
